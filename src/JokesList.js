@@ -6,7 +6,7 @@ import axios from "axios";
 import "./JokeList.css"
 
 const API_URL = 'https://icanhazdadjoke.com/'
-const num = 9
+const num = 10
 
 class JokesList extends Component {
     constructor(props) {
