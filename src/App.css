@@ -1,5 +1,16 @@
+body {
+  background:
+    -webkit-linear-gradient(#75d7fb, rgba(236, 154, 217, 0) 0%),
+    -webkit-linear-gradient(-45deg, #74d1f3 45%, rgb(236, 68, 113) 0%);
+  height: 100vh;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .App-logo {
@@ -32,6 +43,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

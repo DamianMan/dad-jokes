@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Garamond:ital,wght@0,600;1,300&family=Roboto:ital,wght@0,300;1,100&family=Ubuntu:ital,wght@0,700;1,700&display=swap');
+
+.NewJokes-btn {
+    background:
+        -webkit-linear-gradient(#75d7fb, rgba(236, 154, 217, 0) 0%),
+        -webkit-linear-gradient(-45deg, #74d1f3 45%, rgb(236, 68, 113) 0%);
+    color: #ffff;
+    border: 0;
+    border-radius: 30px;
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.NewJokes-btn:hover {
+    transition: 0.5s linear;
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
+
+}
+
+.NewJokes-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0da2ff;
+    height: 800px;
+    width: 300px;
+    margin-top: 20%;
+}
+
+.NewJokes-emoji {
+    cursor: default;
+    font-size: 150px;
+    border-radius: 500px;
+    width: 200px;
+    margin-bottom: 40px;
+    background-color: #0077ff;
+    box-shadow: 1px 17px 24px -4px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 1px 17px 24px -4px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 1px 17px 24px -4px rgba(0, 0, 0, 0.8);
+}
+
+.NewJokes-emoji:hover {
+    animation: tilt-n-move-shaking 1s infinite;
+}
+
+@keyframes tilt-n-move-shaking {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    25% {
+        transform: translate(5px, 5px) rotate(5deg);
+    }
+
+    50% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    75% {
+        transform: translate(-5px, 5px) rotate(-5deg);
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+
+
+h1 {
+    color: #ffff;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+
+}
+
+span {
+    color: #ffff;
+    font-weight: lighter;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 60px;
+
+
+}

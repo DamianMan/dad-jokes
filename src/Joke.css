@@ -1,0 +1,97 @@
+.Joke {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 700px;
+    height: 60px;
+    border-bottom: 1px solid rgb(197, 194, 194);
+}
+
+.fa-solid {
+    padding: 0 10px;
+    color: rgb(163, 181, 197);
+    cursor: pointer;
+}
+
+.Joke-arrow {
+    border-radius: 50%;
+}
+
+.Joke-count {
+    border-radius: 50%;
+    border: 3px solid red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 6px 15px -4px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 1px 6px 15px -4px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 1px 6px 15px -4px rgba(0, 0, 0, 0.8);
+}
+
+.Joke-text {
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.Joke-text-row {
+    padding: 0 20px;
+}
+
+.Joke-emoji {
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 50px;
+}
+
+.Joke-emoji>p:hover {
+    animation: horizontal-shaking 0.35s ease-in;
+
+}
+
+.Joke-emoji>p {
+    text-shadow: 0px 6px 10px rgba(0, 0, 0, 0.39);
+}
+
+.Joke-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-up-long:hover {
+
+    color: rgb(5, 202, 5);
+    animation: horizontal-shaking 0.35s ease-in;
+
+}
+
+.fa-down-long:hover {
+
+    color: rgb(253, 8, 8);
+    animation: horizontal-shaking 0.35s ease-in;
+
+}
+
+@keyframes horizontal-shaking {
+    0% {
+        transform: translateX(0)
+    }
+
+    25% {
+        transform: translateX(5px)
+    }
+
+    50% {
+        transform: translateX(-5px)
+    }
+
+    75% {
+        transform: translateX(5px)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
