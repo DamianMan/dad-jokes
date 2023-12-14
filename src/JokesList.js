@@ -58,24 +58,6 @@ class JokesList extends Component {
             localStorage.setItem('jokesList', JSON.stringify(this.state.jokesList))
             this.setState({ parsedList: JSON.parse(localStorage.getItem('jokesList')) })
 
-            // if (this.state.jokesList.length === 0) {
-            //     data = { ...response.data, count: 0 }
-            //     this.setState(st => ({
-            //         jokesList: [...st.jokesList, data]
-            //     }))
-            // } else {
-            //     if (response.data.id === this.state.jokesList[count - 1].id) {
-            //         console.log(response.data.id)
-            //         console.log(this.state.jokesList[count - 1].id)
-            //         num += 1
-            //     } else {
-            //         data = { ...response.data, count: 0 }
-            //         this.setState(st => ({
-            //             jokesList: [...st.jokesList, data]
-            //         }))
-            //     }
-
-            // }
 
 
 
