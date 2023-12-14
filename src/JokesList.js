@@ -13,7 +13,7 @@ class JokesList extends Component {
         super(props);
         this.state = {
             jokesList: [],
-            parsedList: JSON.parse(localStorage.getItem('jokesList')),
+            parsedList: JSON.parse(localStorage.getItem('jokesList')) || [],
             isLoading: false
         }
         this.addOne = this.addOne.bind(this)
